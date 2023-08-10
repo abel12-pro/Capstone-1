@@ -20,7 +20,7 @@ const speakersArr = [
 let speakers1 = '';
 
 speakersArr.forEach((speaker) => {
-  speakers1 += `<li class="speakers">
+  speakers1 += `<article class="speakers">
   <div class="img-card">
       <img src="${speaker.img}" alt="${speaker.alt}">
   </div>
@@ -30,7 +30,7 @@ speakersArr.forEach((speaker) => {
       <div class="h-r3"></div>
       <p class="speaker-info">${speaker.speakerInfo}</p>
   </div>
-  </li>`;
+  </article>`;
 });
 
 const speakers = document.querySelector('.speakers-list');
@@ -58,7 +58,7 @@ const speakersArr2 = [
 let speakers12 = '';
 
 speakersArr2.forEach((speaker2) => {
-  speakers12 += `<li class="speakers">
+  speakers12 += `<article class="speakers">
   <div class="img-card">
       <img src="${speaker2.img}" alt="${speaker2.alt}">
   </div>
@@ -68,7 +68,7 @@ speakersArr2.forEach((speaker2) => {
       <div class="h-r3"></div>
       <p class="speaker-info">${speaker2.speakerInfo}</p>
   </div>
-  </li>`;
+  </article>`;
 });
 
 const speakers2 = document.querySelector('.speakers-list2');
@@ -96,7 +96,7 @@ const speakersArr3 = [
 let speakers13 = '';
 
 speakersArr3.forEach((speaker3) => {
-  speakers13 += `<li class="speakers">
+  speakers13 += `<article class="speakers">
   <div class="img-card">
       <img src="${speaker3.img}" alt="${speaker3.alt}">
   </div>
@@ -106,7 +106,7 @@ speakersArr3.forEach((speaker3) => {
       <div class="h-r3"></div>
       <p class="speaker-info">${speaker3.speakerInfo}</p>
   </div>
-  </li>`;
+  </article>`;
 });
 
 const speakers3 = document.querySelector('.speakers-list3');
