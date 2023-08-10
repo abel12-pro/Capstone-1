@@ -169,6 +169,7 @@ body {
 .speakers3 {
   display: flex;
   gap: 6px;
+  margin-top: 20px;
 }
 
 .img-card {
