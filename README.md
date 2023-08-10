@@ -165,7 +165,7 @@ Your working browser.
 
 - GitHub: [@Github](https://github.com/abel12-pro/Capstone-1)
 - Twitter: [@twitter](https://twitter.com/abelfikre21)
-- LinkedIn: [@LinkedIn](www.linkedin.com/in/ abel-fikre-03b173a)
+- LinkedIn: [@LinkedIn](www.linkedin.com/in/abel-fikre-03b173a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
