@@ -9,6 +9,7 @@
 body {
   background: #fdfdfd url('project-image/header-bg.png') no-repeat;
   background-size: auto;
+  overflow-x: hidden;
 }
 
 .d-none,
@@ -118,8 +119,9 @@ body {
 }
 
 .items img {
-  width: 25%;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .item-name {
@@ -166,7 +168,6 @@ body {
 .speakers2,
 .speakers3 {
   display: flex;
-  margin: 35px  0 35px 20px;
   gap: 6px;
 }
 
@@ -448,7 +449,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12%;
+    padding: 0 9%;
     background-color: #fdfdfd;
     position: fixed;
     margin-top: 30px;
@@ -464,7 +465,7 @@ body {
 
   .logo {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
 
@@ -532,7 +533,7 @@ body {
   .creative {
     font-size: 3.5em;
     padding: 12px 0;
-    width: 50vw;
+    width: 100%;
     text-transform: uppercase;
     font-weight: 800;
     line-height: 1.1;
@@ -541,7 +542,7 @@ body {
 
   .joy {
     border: 2px solid #fff;
-    width: 55%;
+    width: 100%;
     padding: 20px;
     margin: 10px 10px 30px;
     line-height: 1.5;
@@ -597,8 +598,8 @@ body {
   }
 
   .items img {
-    width: 80%;
-    height: 50%;
+    width: 50px;
+    height: 50px;
   }
 
   .item-name {
@@ -644,15 +645,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 25px;
-    gap: unset;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 30px;
   }
 
   .speakers,
   .speakers2,
   .speakers3 {
     display: flex;
-    margin: 3% 10%;
     width: 70%;
   }
 
