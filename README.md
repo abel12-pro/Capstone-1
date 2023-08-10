@@ -61,7 +61,7 @@ Utilized CSS box model and Flexbox for layout design. Incorporated images and ba
 
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [Live Demo Link](https://abel12-pro.github.io/)
+- [Live Demo Link]( https://abel12-pro.github.io/Capstone-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
